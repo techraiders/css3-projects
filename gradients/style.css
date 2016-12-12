@@ -1,0 +1,27 @@
+body, html { min-height: 100%; }
+body {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#357a8c), to(white));
+	background: -webkit-linear-gradient(top, #357a8c, white);
+	background: -moz-linear-gradient(top, #357a8c, white);
+	background: -o-linear-gradient(top, #357a8c, white);
+	background: -ms-linear-gradient(top, #357a8c, white);
+	background: linear-gradient(top, #357a8c, white);
+}
+
+.box {
+	margin: auto;
+	width: 400px;
+	height: 200px;
+	background: black;
+	background: -webkit-linear-gradient(top, black, red 50%, green 50%, yellow);
+	color: white;
+}
+.angle {
+	margin: auto;
+	width: 400px;
+	height: 200px;
+	background: black;
+	background: -webkit-linear-gradient(45deg, yellow, green);
+	background: linear-gradient(45deg, yellow, green);
+	color: white;
+}
