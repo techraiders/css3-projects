@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Vit';
+    src: url('fonts/VITAMIN_-webfont.eot');
+    src: url('fonts/VITAMIN_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/VITAMIN_-webfont.woff') format('woff'),
+         url('fonts/VITAMIN_-webfont.ttf') format('truetype'),
+         url('fonts/VITAMIN_-webfont.svg#VitaminRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+    font-family: 'Vit';
+}

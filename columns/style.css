@@ -1,0 +1,23 @@
+body {
+	width: 550px;
+	margin: 100px auto;
+}
+
+p {
+
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	columns: 2;
+
+	-webkit-column-gap: 20px;
+	-moz-column-gap: 20px;
+	column-gap: 20px;
+}
+
+/*p {
+	 -webkit-column-count: 3;
+	   -webkit-column: 3 
+
+	 -webkit-column-width: 100px;
+	-webkit-columns: 100px; 
+}*/
