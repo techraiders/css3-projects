@@ -13,8 +13,11 @@
 }
 
 .item {
-	width: 200px;
-	height: 200px;
+	width: 60px;
+	height: 60px;
+	/* display: block; no effect */
+	/* display: inline; looses hight and width */
+	display: inline-block; /* It is a mixture of these two, aligned horizontally, and maintains its height and width */  
 }
 
 .item1 {background-color: red;}
