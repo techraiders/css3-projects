@@ -5,19 +5,22 @@
 		3. Flex elements are special elements which can be arranged horizontally, or vertically.
 */
 
+
+/*
+Making the parent display flex, we don't  have to worry about the item itself.
+
+1. Items don't have a class of inline, block, or inline-block, it's the parent container that matters.
+*/
 .container {
 	background-color: #555;
 	width: 800px;
 	height: 400px;
 	margin: 0 auto;
+	display: flex;
 }
 
 .item {
-	width: 60px;
-	height: 60px;
-	/* display: block; no effect */
-	/* display: inline; looses hight and width */
-	display: inline-block; /* It is a mixture of these two, aligned horizontally, and maintains its height and width */  
+	
 }
 
 .item1 {background-color: red;}
