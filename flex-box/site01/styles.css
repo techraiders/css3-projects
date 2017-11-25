@@ -1,0 +1,23 @@
+/*
+	Types of elements:
+		1. Block level elements.
+		2. Inline elements are arranged horizontally.
+		3. Flex elements are special elements which can be arranged horizontally, or vertically.
+*/
+
+.container {
+	background-color: #555;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+}
+
+.item1 {background-color: red;}
+.item2 {background-color: blue;}
+.item3 {background-color: green;}
+.item4 {background-color: orange;}
